@@ -46,7 +46,7 @@
         <!-- Link Register -->
         <p class="text-center text-sm text-gray-600 mt-6">
         Belum punya akun?
-        <a href="/register" class="text-blue-600 font-semibold hover:underline">
+        <a href="{{ route('registrasi') }}" class="text-blue-600 font-semibold hover:underline">
             Register di sini
         </a>
         </p>

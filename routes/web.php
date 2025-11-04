@@ -7,7 +7,7 @@ Route::get('/', function () {
 });
 Route::get('login', function () {
     return view('login');
-}); 
+})->name('login');
 Route::get('registrasi', function () {
     return view('registrasi');
-}); 
+})->name('registrasi');
